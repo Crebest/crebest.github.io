@@ -68,7 +68,7 @@ var merge = function (nums1, m, nums2, n) {
 
 # 每周一个小技巧：
 
-把 github 的链接里的 com 改成 dev，会得到一个在线版 vscode，还可以升级到虚拟机版本，每个月都有一定的免费试用时长。 
+把 github 的链接里的 com 改成 dev，会得到一个在线版 vscode，还可以升级到虚拟机版本，每个月都有一定的免费使用时长。 
 
 
 
