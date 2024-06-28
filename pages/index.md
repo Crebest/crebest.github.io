@@ -14,6 +14,38 @@ permalink: /
 
 # PROJECT VeXEd - HACKER-STYLE PERSONAL HOMEPAGE
 
+# 增量极客ARTS计划
+
+每周提升计划从2024年5月13日执行
+
+## Algorithm：
+
+- 每周一道算法题
+- 刷题链接（力扣hot150）：https://leetcode.cn/studyplan/top-interview-150/
+- 附上力扣的题目和题解即可
+
+## Review:
+
+- 每周阅读一篇技术文章
+- 方向、语言不限，做出点评，点评字数风格不限，
+- 附上文章链接和点评内容
+
+## Tip：
+
+- 每周学习一个技术技巧
+- 最好是和自己当前从事的方向有关的，目的是技巧或者小知识可以应用到团队或项目中，但不强制必须说马上就能应用，也许当下的一个小点未来就可以在某个节点上发挥作用
+- 附上技巧内容
+
+## Share：
+
+- 每周根据自己目前所学的内容输出一些有深度的或者干货的内容，字数和题材不限
+- 每次循环到@CC 分享的时候，这一part内容限定为以下三项：
+1. 最近读完的一本书（办公室里找的）感悟及以上、
+2. 学习一门课程（题材不限）输出感悟300字及以上、
+3. 一篇有深度的博文，500字及以上。
+
+如果写的是博客，附上链接
+
 <br>
 > pRoJEct-NeGYa is a hacker-like, highly-customizable theme for note-keeping, personal-website or CV.
 
