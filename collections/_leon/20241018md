@@ -1,0 +1,69 @@
+---
+title: 打卡1018
+---
+
+# 每周一道算法题：
+
+[121. 买卖股票的最佳时机](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/)
+
+```Java
+class Solution {
+    public int maxProfit(int[] prices) {
+    int min = Integer.MAX_VALUE;
+    int income = 0;
+    for (int price : prices) {
+      min = Math.min(price, min);
+      income = Math.max(income, price - min);
+    }
+    return income;
+  }
+}
+```
+
+# 每周一篇文章点评：
+
+[How to Efficiently Check If a Username Exists Among Billions of Users](https://medium.com/@aditimishra_541/how-to-efficiently-check-if-a-username-exists-among-billions-of-users-7ed1e5c60489)
+
+- 数据库查询
+- 缓存
+- 布隆过滤器
+
+
+
+# 每周一个小技巧：
+
+[marscode](https://www.marscode.cn/)
+
+字节出的AI编码助手
+
+# 每周一篇学习分享：
+
+3. #### JDK17 record
+
+    使用record简化模板代码
+   
+   ```java
+   public record User(String name, int age, String address) {
+   
+     public static void main(String[] args) {
+       User user = new User("小明", 18, "中国");
+       //获取属性
+       System.out.println(user.name());
+       //toString方法
+       System.out.println(user);
+       //hashCode和equals
+       User user1 = new User("小明", 18, "中国");
+       System.out.println(user1.equals(user));
+     }
+   }
+   ```
+   
+   
+   
+   ```sql
+   小明
+   User[name=小明, age=18, address=中国]
+   true
+   ```
+   
+   
